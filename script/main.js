@@ -8,7 +8,7 @@ const MESES = [
             "Junio",
             "Julio",
             "Agosto",
-            "Septimbre",
+            "Septiembre",
             "Octubre",
             "Noviembre",
             "Diciembre",
