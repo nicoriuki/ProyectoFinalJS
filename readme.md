@@ -19,6 +19,8 @@ Agenda para agregar eventos , entrega de proyecto final de Coder House curso de 
 
 Se utiliza LocalStorage para guardar los eventos y se usa un achivo Json para leer asincronicamente los feriados, los dias , feriados y eventos son pintados dinamicamente segun el mes y año que muestre el calendario, el fondo de pantalla cambia segun las estaciones del año que pertenece el mes, los eventos en el mismo dia se ordenan por hora de menor a mayor, se utilizo las librerias Sweetalert2 y Toastify para las alertas
 Se aplico todo lo aprendido en el curso
+el diseño no es responsive
+Los feriados estan cargados hasta el año 2022
 
 ## Autor
 

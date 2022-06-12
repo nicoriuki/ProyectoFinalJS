@@ -521,6 +521,15 @@
                   "dia": "25",
                   "mes": "11",
                   "anio": "2022"
+            },
+            {
+                  "conjunto": "102023",
+                  "titulo": "Año Nuevo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/A%C3%B1o_Nuevo",
+                  "dia": "1",
+                  "mes": "0",
+                  "anio": "2023"
             }
       ]
 }
