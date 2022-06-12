@@ -1,0 +1,122 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+}
+.anio {
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+}
+.calendarioMeses {
+      font-size: 30px;
+      border-radius: 15px;
+      font-weight: bold;
+      text-align: center;
+}
+.calendarioMeses > div {
+      width: 33%;
+}
+.mesPrevio {
+      /*   display: block; */
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+}
+.mesSiguiente {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+}
+.calendarioAnios {
+      font-size: 30px;
+
+      font-weight: bold;
+      text-align: center;
+}
+.tabla {
+      border-top-left-radius: 4%;
+      border-top-right-radius: 4%;
+}
+
+th {
+      text-align: center;
+}
+.dia {
+      border: 1px solid rgb(0, 0, 0);
+      width: 150px;
+      height: 100px;
+      text-align: center;
+}
+.dia:hover {
+      cursor: pointer;
+}
+
+.numeroDia {
+      margin: 0% auto;
+}
+.mesNoActual {
+      color: #8a8a8a;
+}
+.mesActual {
+      color: #000;
+}
+.noHabil {
+      color: #df1414;
+}
+.domingo {
+      color: #df1414;
+}
+.eventos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.evento {
+      margin-bottom: 2px;
+      margin-left: 2px;
+      width: 130px;
+      font-size: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+}
+.trasparente {
+      background-color: rgba(255, 255, 255, 0.721);
+}
+.btnModalEvento {
+      text-decoration: none;
+}
+.papelera {
+      width: 30px;
+      height: 30px;
+}
+.papelera:hover {
+      cursor: pointer;
+}
+.inputModal {
+      border: 1px solid rgb(11, 11, 11);
+      border-radius: 5px;
+}
+.econjunto {
+      font-size: 20px;
+}
+.verano {
+      background-image: url("../imagenes/verano.jpg");
+      background-size: cover;
+}
+.invierno {
+      background-image: url("../imagenes/invierno.jpg");
+      background-size: cover;
+}
+.primavera {
+      background-image: url("../imagenes/primavera.jpg");
+      background-size: cover;
+}
+.otonio {
+      background-image: url("../imagenes/otonio.jpg");
+      background-size: cover;
+}

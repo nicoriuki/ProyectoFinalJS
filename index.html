@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+  <title>Calendario</title>
+</head>
+
+<body id="body">
+
+
+
+  <div class="calendario container">
+
+    <div class="calendarioMeses d-flex justify-content-evenly mt-5 mb-5 trasparente">
+      <div>AGENDA</div>
+      <div>
+        <button class="mesPrevio " id="mesPrevio">
+          < </button>
+            <button class="mesSiguiente " id="mesSiguiente">
+              >
+            </button>
+      </div>
+      <div>
+        <span class="mes" id="mes"></span>
+      </div>
+    </div>
+    <div class="d-flex justify-content-evenly mt-5 mb-5">
+      <button type="button" class="btn btn-primary" id="btnAgregar">
+        Agregar Evento
+      </button>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+      <table id="tableDias" class="trasparente tabla ">
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+          <th>Sabado</th>
+          <th>Domingo</th>
+        </tr>
+        <tr>
+          <td id="dia0" class="dia">
+            <div class="eventos" id="diaN0"></div>
+            <div class="eventos" id="diaE0"></div>
+          </td>
+          <td id="dia1" class="dia">
+            <div class="eventos" id="diaN1"></div>
+            <div class="eventos" id="diaE1"></div>
+          </td>
+          <td id="dia2" class="dia">
+            <div class="eventos" id="diaN2"></div>
+            <div class="eventos" id="diaE2"></div>
+          </td>
+          <td id="dia3" class="dia">
+            <div class="eventos" id="diaN3"></div>
+            <div class="eventos" id="diaE3"></div>
+          </td>
+          <td id="dia4" class="dia">
+            <div class="eventos" id="diaN4"></div>
+            <div class="eventos" id="diaE4"></div>
+          </td>
+          <td id="dia5" class="dia">
+            <div class="eventos" id="diaN5"></div>
+            <div class="eventos" id="diaE5"></div>
+          </td>
+          <td id="dia6" class="domingo dia">
+            <div class="eventos" id="diaN6"></div>
+            <div class="eventos" id="diaE6"></div>
+          </td>
+        </tr>
+        <tr>
+          <td id="dia7" class="dia">
+            <div class="eventos" id="diaN7"></div>
+            <div class="eventos" id="diaE7"></div>
+          </td>
+          <td id="dia8" class="dia">
+            <div class="eventos" id="diaN8"></div>
+            <div class="eventos" id="diaE8"></div>
+          </td>
+          <td id="dia9" class="dia">
+            <div class="eventos" id="diaN9"></div>
+            <div class="eventos" id="diaE9"></div>
+          </td>
+          <td id="dia10" class="dia">
+            <div class="eventos" id="diaN10"></div>
+            <div class="eventos" id="diaE10"></div>
+          </td>
+          <td id="dia11" class="dia">
+            <div class="eventos" id="diaN11"></div>
+            <div class="eventos" id="diaE11"></div>
+          </td>
+          <td id="dia12" class="dia">
+            <div class="eventos" id="diaN12"></div>
+            <div class="eventos" id="diaE12"></div>
+          </td>
+          <td id="dia13" class="domingo dia">
+            <div class="eventos" id="diaN13"></div>
+            <div class="eventos" id="diaE13"></div>
+          </td>
+        </tr>
+        <tr>
+          <td id="dia14" class="dia">
+            <div class="eventos" id="diaN14"></div>
+            <div class="eventos" id="diaE14"></div>
+          </td>
+          <td id="dia15" class="dia">
+            <div class="eventos" id="diaN15"></div>
+            <div class="eventos" id="diaE15"></div>
+          </td>
+          <td id="dia16" class="dia">
+            <div class="eventos" id="diaN16"></div>
+            <div class="eventos" id="diaE16"></div>
+          </td>
+          <td id="dia17" class="dia">
+            <div class="eventos" id="diaN17"></div>
+            <div class="eventos" id="diaE17"></div>
+          </td>
+          <td id="dia18" class="dia">
+            <div class="eventos" id="diaN18"></div>
+            <div class="eventos" id="diaE18"></div>
+          </td>
+          <td id="dia19" class="dia">
+            <div class="eventos" id="diaN19"></div>
+            <div class="eventos" id="diaE19"></div>
+          </td>
+          <td id="dia20" class="domingo dia">
+            <div class="eventos" id="diaN20"></div>
+            <div class="eventos" id="diaE20"></div>
+          </td>
+        </tr>
+        <tr>
+          <td id="dia21" class="dia">
+            <div class="eventos" id="diaN21"></div>
+            <div class="eventos" id="diaE21"></div>
+          </td>
+          <td id="dia22" class="dia">
+            <div class="eventos" id="diaN22"></div>
+            <div class="eventos" id="diaE22"></div>
+          </td>
+          <td id="dia23" class="dia">
+            <div class="eventos" id="diaN23"></div>
+            <div class="eventos" id="diaE23"></div>
+          </td>
+          <td id="dia24" class="dia">
+            <div class="eventos" id="diaN24"></div>
+            <div class="eventos" id="diaE24"></div>
+          </td>
+          <td id="dia25" class="dia">
+            <div class="eventos" id="diaN25"></div>
+            <div class="eventos" id="diaE25"></div>
+          </td>
+          <td id="dia26" class="dia">
+            <div class="eventos" id="diaN26"></div>
+            <div class="eventos" id="diaE26"></div>
+          </td>
+          <td id="dia27" class="domingo dia">
+            <div class="eventos" id="diaN27"></div>
+            <div class="eventos" id="diaE27"></div>
+          </td>
+        </tr>
+        <tr>
+          <td id="dia28" class="dia">
+            <div class="eventos" id="diaN28"></div>
+            <div class="eventos" id="diaE28"></div>
+          </td>
+          <td id="dia29" class="dia">
+            <div class="eventos" id="diaN29"></div>
+            <div class="eventos" id="diaE29"></div>
+          </td>
+          <td id="dia30" class="dia">
+            <div class="eventos" id="diaN30"></div>
+            <div class="eventos" id="diaE30"></div>
+          </td>
+          <td id="dia31" class="dia">
+            <div class="eventos" id="diaN31"></div>
+            <div class="eventos" id="diaE31"></div>
+          </td>
+          <td id="dia32" class="dia">
+            <div class="eventos" id="diaN32"></div>
+            <div class="eventos" id="diaE32"></div>
+          </td>
+          <td id="dia33" class="dia">
+            <div class="eventos" id="diaN33"></div>
+            <div class="eventos" id="diaE33"></div>
+          </td>
+          <td id="dia34" class="domingo dia">
+            <div class="eventos" id="diaN34"></div>
+            <div class="eventos" id="diaE34"></div>
+          </td>
+        </tr>
+        <tr>
+          <td id="dia35" class="dia">
+            <div class="eventos" id="diaN35"></div>
+            <div class="eventos" id="diaE35"></div>
+          </td>
+          <td id="dia36" class="dia">
+            <div class="eventos" id="diaN36"></div>
+            <div class="eventos" id="diaE36"></div>
+          </td>
+          <td id="dia37" class="dia">
+            <div class="eventos" id="diaN37"></div>
+            <div class="eventos" id="diaE37"></div>
+          </td>
+          <td id="dia38" class="dia">
+            <div class="eventos" id="diaN38"></div>
+            <div class="eventos" id="diaE38"></div>
+          </td>
+          <td id="dia39" class="dia">
+            <div class="eventos" id="diaN39"></div>
+            <div class="eventos" id="diaE39"></div>
+          </td>
+          <td id="dia40" class="dia">
+            <div class="eventos" id="diaN40"></div>
+            <div class="eventos" id="diaE40"></div>
+          </td>
+
+          <td id="dia41" class="domingo dia">
+            <div class="eventos" id="diaN41"></div>
+            <div class="eventos" id="diaE41"></div>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalAgregar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Agregar Evento Nuevo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="eventosModal">
+              <div class=" container row">
+                <div class="col-6">
+                  <label for="diaModal">DIA</label>
+                  <input type="number" name="diaModal" id="diaModal" min="1" max="31" required>
+                </div>
+                <div class="col-6">
+                  <label for="mesModal">MES</label>
+                  <select name="mesModal" id="mesModal">
+                    <option id="mesActualModal" value="" selected></option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label for="anioModal">AÑO</label>
+                  <input type="number" name="anioModal" id="anioModal">
+                </div>
+                <div class="col-6">
+                  <label for="horaModal">HORA</label>
+                  <input type="time" name="horaModal" id="horaModal" required>
+                </div>
+                <div class="col-12">
+                  <label for="colorModal">Color</label>
+                  <select name="colorModal" id="colorModal" required>
+                    <option value="light">Elija un color</option>
+                    <option value="primary" class="alert alert-primary" role="alert">Primary</option>
+                    <option value="secondary" class="alert alert-secondary" role="alert">Secondary</option>
+                    <option value="success" class="alert alert-success" role="alert">Success</option>
+                    <option value="danger" class="alert alert-danger" role="alert">Danger</option>
+                    <option value="warning" class="alert alert-warning" role="alert">Warning</option>
+                    <option value="info" class="alert alert-info" role="alert">Info</option>
+                    <option value="light" class="alert alert-light" role="alert">Light</option>
+                    <option value="dark" class="alert alert-dark" role="alert">Dark</option>
+
+                  </select>
+                </div>
+                <label for="tituloModal">Titulo</label>
+                <input type="text" class="inputModal" name="tituloModal" id="tituloModal" required>
+                <label for="descripcion">Descripcion</label>
+                <textarea class="inputModal mb-5" name="descripcionModal" id="descripcionModal" cols="30" rows="10"
+                  required></textarea>
+                <button type="submit" class="btn btn-primary">Agregar Evento</button>
+              </div>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="btnCerrarModal" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL NUEVO -->
+    <div class="modal fade" id="modalDia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="diaTitulo"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row" id="diaBody">
+
+          </div>
+          <div class="d-flex justify-content-evenly mt-5 mb-5">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAgregar">
+              Agregar Evento
+            </button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.14/dist/sweetalert2.all.min.js"></script>
+    <script src="script/main.js"></script>
+
+</body>
+
+</html>

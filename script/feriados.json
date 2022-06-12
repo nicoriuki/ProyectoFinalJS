@@ -1,0 +1,526 @@
+{
+      "feriados": [
+            {
+                  "conjunto": "102020",
+                  "titulo": "Año Nuevo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/A%C3%B1o_Nuevo",
+                  "dia": "1",
+                  "mes": "0",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2412020",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "24",
+                  "mes": "1",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2512020",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "25",
+                  "mes": "1",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2322020",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "23",
+                  "mes": "2",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2422020",
+                  "titulo": "Día Nacional de la Memoria por la Verdad y la Justicia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia",
+                  "dia": "24",
+                  "mes": "2",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "3122020",
+                  "titulo": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas",
+                  "dia": "31",
+                  "mes": "2",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "1032020",
+                  "titulo": "Viernes Santo Festividad Cristiana",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Viernes_Santo",
+                  "dia": "10",
+                  "mes": "3",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "142020",
+                  "titulo": "Día del Trabajador",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores",
+                  "dia": "1",
+                  "mes": "4",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2542020",
+                  "titulo": "Día de la Revolución de Mayo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo",
+                  "dia": "25",
+                  "mes": "4",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "1552020",
+                  "titulo": "Paso a la Inmortalidad del Gral. Don Martín Güemes",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes",
+                  "dia": "15",
+                  "mes": "5",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "2052020",
+                  "titulo": "Paso a la Inmortalidad del General Manuel Belgrano",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Bandera_(Argentina)",
+                  "dia": "20",
+                  "mes": "5",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "962020",
+                  "titulo": "Día de la Independencia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_independencia_de_la_Argentina",
+                  "dia": "9",
+                  "mes": "6",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "1062020",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "10",
+                  "mes": "6",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "1772020",
+                  "titulo": "Paso a la Inmortalidad del General José de San Martín",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+                  "dia": "17",
+                  "mes": "7",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "1292020",
+                  "titulo": "Día del Respeto a la Diversidad Cultural",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)",
+                  "dia": "12",
+                  "mes": "9",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "23102020",
+                  "titulo": "Día de la Soberanía Nacional",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Soberan%C3%ADa_Nacional",
+                  "dia": "23",
+                  "mes": "10",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "7112020",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "7",
+                  "mes": "11",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "8112020",
+                  "titulo": "Inmaculada Concepción de María",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Inmaculada_Concepci%C3%B3n",
+                  "dia": "8",
+                  "mes": "11",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "25112020",
+                  "titulo": "Navidad",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Navidad",
+                  "dia": "25",
+                  "mes": "11",
+                  "anio": "2020"
+            },
+            {
+                  "conjunto": "102021",
+                  "titulo": "Año Nuevo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/A%C3%B1o_Nuevo",
+                  "dia": "1",
+                  "mes": "0",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "1512021",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "15",
+                  "mes": "1",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "1612021",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "16",
+                  "mes": "1",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "2422021",
+                  "titulo": "Día Nacional de la Memoria por la Verdad y la Justicia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia",
+                  "dia": "24",
+                  "mes": "2",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "232021",
+                  "titulo": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas",
+                  "dia": "2",
+                  "mes": "3",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "232021",
+                  "titulo": "Viernes Santo Festividad Cristiana",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Viernes_Santo",
+                  "dia": "2",
+                  "mes": "3",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "142021",
+                  "titulo": "Día del Trabajador",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores",
+                  "dia": "1",
+                  "mes": "4",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "2442021",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "24",
+                  "mes": "4",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "2542021",
+                  "titulo": "Día de la Revolución de Mayo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo",
+                  "dia": "25",
+                  "mes": "4",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "2052021",
+                  "titulo": "Paso a la Inmortalidad del General Manuel Belgrano",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Bandera_(Argentina)",
+                  "dia": "20",
+                  "mes": "5",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "2152021",
+                  "titulo": "Paso a la Inmortalidad del Gral. Don Martín Güemes",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes",
+                  "dia": "21",
+                  "mes": "5",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "962021",
+                  "titulo": "Día de la Independencia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_independencia_de_la_Argentina",
+                  "dia": "9",
+                  "mes": "6",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "1672021",
+                  "titulo": "Paso a la Inmortalidad del General José de San Martín",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+                  "dia": "16",
+                  "mes": "7",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "892021",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "8",
+                  "mes": "9",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "1192021",
+                  "titulo": "Día del Respeto a la Diversidad Cultural",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)",
+                  "dia": "11",
+                  "mes": "9",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "20102021",
+                  "titulo": "Día de la Soberanía Nacional",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Soberan%C3%ADa_Nacional",
+                  "dia": "20",
+                  "mes": "10",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "22102021",
+                  "titulo": "Feriado 0000 Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "22",
+                  "mes": "10",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "8112021",
+                  "titulo": "Inmaculada Concepción de María",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Inmaculada_Concepci%C3%B3n",
+                  "dia": "8",
+                  "mes": "11",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "25112021",
+                  "titulo": "Navidad",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Navidad",
+                  "dia": "25",
+                  "mes": "11",
+                  "anio": "2021"
+            },
+            {
+                  "conjunto": "102022",
+                  "titulo": "Año Nuevo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/A%C3%B1o_Nuevo",
+                  "dia": "1",
+                  "mes": "0",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "2812022",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "28",
+                  "mes": "1",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "122022",
+                  "titulo": "Carnaval",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Carnaval",
+                  "dia": "1",
+                  "mes": "2",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "2422022",
+                  "titulo": "Día Nacional de la Memoria por la Verdad y la Justicia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Nacional_de_la_Memoria_por_la_Verdad_y_la_Justicia",
+                  "dia": "24",
+                  "mes": "2",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "232022",
+                  "titulo": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Veterano_y_de_los_Ca%C3%ADdos_en_la_Guerra_de_Malvinas",
+                  "dia": "2",
+                  "mes": "3",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "1532022",
+                  "titulo": "Viernes Santo Festividad Cristiana",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Viernes_Santo",
+                  "dia": "15",
+                  "mes": "3",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "142022",
+                  "titulo": "Día del Trabajador",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_los_Trabajadores",
+                  "dia": "1",
+                  "mes": "4",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "1842022",
+                  "titulo": "CENSO",
+                  "hora": "0000",
+                  "descripcion": " https://es.wikipedia.org/wiki/Censo_argentino_de_2022",
+                  "dia": "18",
+                  "mes": "4",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "2542022",
+                  "titulo": "Día de la Revolución de Mayo",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo",
+                  "dia": "25",
+                  "mes": "4",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "1752022",
+                  "titulo": "Paso a la Inmortalidad del Gral. Don Martín Güemes",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Miguel_de_G%C3%BCemes",
+                  "dia": "17",
+                  "mes": "5",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "2052022",
+                  "titulo": "Paso a la Inmortalidad del General Manuel Belgrano",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Bandera_(Argentina)",
+                  "dia": "20",
+                  "mes": "5",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "962022",
+                  "titulo": "Día de la Independencia",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_independencia_de_la_Argentina",
+                  "dia": "9",
+                  "mes": "6",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "1572022",
+                  "titulo": "Paso a la Inmortalidad del General José de San Martín",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+                  "dia": "15",
+                  "mes": "7",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "792022",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "7",
+                  "mes": "9",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "1092022",
+                  "titulo": "Día del Respeto a la Diversidad Cultural",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_del_Respeto_a_la_Diversidad_Cultural_(Argentina)",
+                  "dia": "10",
+                  "mes": "9",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "20102022",
+                  "titulo": "Día de la Soberanía Nacional",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/D%C3%ADa_de_la_Soberan%C3%ADa_Nacional",
+                  "dia": "20",
+                  "mes": "10",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "21102022",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "21",
+                  "mes": "10",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "8112022",
+                  "titulo": "Inmaculada Concepción de María",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Inmaculada_Concepci%C3%B3n",
+                  "dia": "8",
+                  "mes": "11",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "9112022",
+                  "titulo": "Feriado Puente Turístico",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/0000_festivo",
+                  "dia": "9",
+                  "mes": "11",
+                  "anio": "2022"
+            },
+            {
+                  "conjunto": "25112022",
+                  "titulo": "Navidad",
+                  "hora": "0000",
+                  "descripcion": "https://es.wikipedia.org/wiki/Navidad",
+                  "dia": "25",
+                  "mes": "11",
+                  "anio": "2022"
+            }
+      ]
+}
